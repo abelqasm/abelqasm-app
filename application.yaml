@@ -6,8 +6,8 @@ metadata:
 spec:
   project: default
   source:
-    repoUrl: https://github.com/abelqasm/abelqasm-app.git
-    targhetRevision: HEAD
+    repoURL: https://github.com/abelqasm/abelqasm-app.git
+    targetRevision: HEAD
     path: confs
   destination:
     server: https://kubernetes.default.svc
