@@ -1,18 +1,18 @@
 apiVersion: app/v1
 kind: Deployment
 metadata:
-  name: will-app
+  name: abelqasm-app
   labels:
-    app: will
+    app: abelqasm
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: will
+      app: abelqasm
   template:
     metadata:
       labels:
-        app: will
+        app: abelqasm
     spec:
       containers:
       - name: will
