@@ -15,7 +15,7 @@ spec:
         app: abelqasm
     spec:
       containers:
-      - name: will
+      - name: abelqasm
         image: wil42/playground:v1
         ports:
           containerPort: 8888
@@ -26,7 +26,7 @@ metadata:
   name: will-service
 spec:
   selector:
-    app: will
+    app: abelqasm
   ports:
     - protocol: TCP
       port: 8888
